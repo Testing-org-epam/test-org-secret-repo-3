@@ -11,3 +11,4 @@ jobs:
   call-test-org-secret:
     name: Test Organization Secret
     uses: Testing-org-epam/test-org-secret-repo-1/.github/workflows/test-org-secret.yml@main
+    secrets: inherit
